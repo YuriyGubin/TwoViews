@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-30" translatesAutoresizingMaskIntoConstraints="NO" id="NeU-r0-5Qe">
-                                <rect key="frame" x="64.5" y="198" width="285.5" height="198"/>
+                                <rect key="frame" x="64.5" y="349" width="285.5" height="198"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Two" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUd-Cy-THl">
                                         <rect key="frame" x="0.0" y="0.0" width="285.5" height="128"/>
@@ -66,8 +66,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="NeU-r0-5Qe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0zZ-Hi-Sf3"/>
-                            <constraint firstItem="NeU-r0-5Qe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="QvH-Mr-gYh"/>
+                            <constraint firstItem="NeU-r0-5Qe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9wf-vZ-JsK"/>
+                            <constraint firstItem="NeU-r0-5Qe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LqY-f2-OE3"/>
                         </constraints>
                     </view>
                 </viewController>
