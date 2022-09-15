@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WXR-6x-5f3">
-                                <rect key="frame" x="16" y="64" width="382" height="386"/>
+                                <rect key="frame" x="16" y="68" width="382" height="382"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WyR-tR-OUy">
-                                <rect key="frame" x="16" y="460" width="382" height="386"/>
+                                <rect key="frame" x="16" y="460" width="382" height="382"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
@@ -29,13 +29,13 @@
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WyR-tR-OUy" secondAttribute="trailing" constant="16" id="AtR-YL-2ZU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WyR-tR-OUy" secondAttribute="bottom" constant="16" id="PX9-fs-Tcj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WyR-tR-OUy" secondAttribute="bottom" constant="20" id="PX9-fs-Tcj"/>
                             <constraint firstItem="WyR-tR-OUy" firstAttribute="top" secondItem="WXR-6x-5f3" secondAttribute="bottom" constant="10" id="QSR-xj-wvc"/>
                             <constraint firstItem="WyR-tR-OUy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="VZ2-Ql-kKl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WXR-6x-5f3" secondAttribute="trailing" constant="16" id="X3O-AR-ovs"/>
                             <constraint firstItem="WXR-6x-5f3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mOh-oN-zUz"/>
                             <constraint firstItem="WyR-tR-OUy" firstAttribute="height" secondItem="WXR-6x-5f3" secondAttribute="height" id="mlN-qV-jKX"/>
-                            <constraint firstItem="WXR-6x-5f3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="s8e-tE-hmQ"/>
+                            <constraint firstItem="WXR-6x-5f3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="s8e-tE-hmQ"/>
                         </constraints>
                     </view>
                 </viewController>
