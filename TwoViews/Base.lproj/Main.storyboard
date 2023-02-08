@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEZ-Bc-s3x">
-                                <rect key="frame" x="16" y="243" width="361" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PEZ-Bc-s3x">
+                                <rect key="frame" x="16" y="75" width="361" height="355.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bPq-dS-vOG">
-                                <rect key="frame" x="16" y="437" width="361" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPq-dS-vOG">
+                                <rect key="frame" x="16" y="446.66666666666674" width="361" height="355.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
@@ -30,10 +30,12 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bPq-dS-vOG" secondAttribute="bottom" constant="16" id="Dn2-op-rNj"/>
                             <constraint firstItem="bPq-dS-vOG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="IbZ-DT-1kh"/>
+                            <constraint firstItem="bPq-dS-vOG" firstAttribute="height" secondItem="PEZ-Bc-s3x" secondAttribute="height" id="LfQ-v5-iqX"/>
                             <constraint firstItem="PEZ-Bc-s3x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="cFS-m2-ZRl"/>
                             <constraint firstItem="PEZ-Bc-s3x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cjE-PP-Fgf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bPq-dS-vOG" secondAttribute="trailing" constant="16" id="qIA-1f-ZzX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PEZ-Bc-s3x" secondAttribute="trailing" constant="16" id="r9z-Rz-cru"/>
+                            <constraint firstItem="bPq-dS-vOG" firstAttribute="top" secondItem="PEZ-Bc-s3x" secondAttribute="bottom" constant="16" id="v6N-7U-eGT"/>
                         </constraints>
                     </view>
                 </viewController>
